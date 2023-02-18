@@ -18,7 +18,7 @@ header {
 h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;
+    color: #ffffff;
 }
 
 #seo {
@@ -51,6 +51,11 @@ nav {
 
 p {
     font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .hero {

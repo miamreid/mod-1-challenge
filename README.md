@@ -8,7 +8,7 @@ The original source code and css had many redundancies in code which could be co
 
 Refactoring the code also helped optimize the site, with a descriptive title, alt text on every image, and logical structure.
 
-I learned about additional semantic HTML elements while refactoring the source code, such as <article>, <aside>, and <nav>.
+I learned about additional semantic HTML elements while refactoring the source code, such as "article", "aside", and "nav".
 
 ## Usage
 
@@ -18,7 +18,7 @@ Users that visit this website are able to research the Horiseon marketing agency
 
 ## Credits
 
--Source code taken from [https://github.com/coding-boot-camp/urban-octo-telegram]
+-Source code taken from [https://github.com/coding-boot-camp/urban-octo-telegram] <br/>
 -Reviewed W3 schools semantic elements [https://www.w3schools.com/html/html5_semantic_elements.asp]
 
 ## License

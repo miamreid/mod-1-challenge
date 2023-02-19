@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -35,6 +36,7 @@ h3 {
     text-align: center;
 }
 
+/*replaced div with semantic nav element*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,6 +45,7 @@ nav {
     font-size: 20px;
 }
 
+/* replaced div with semantic list elements*/
  ul li {
     list-style-type: none;
     display: inline-block;
@@ -62,26 +65,28 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(../images/digital-marketing-meeting.jpg);
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/* Content class for articles below */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*changed divs to article semantic elements*/
 article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* changed div to aside element*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -89,10 +94,10 @@ aside {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* assigned class to sections within aside element */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,6 +109,7 @@ aside {
     max-width: 150px;
 }
 
+/*used ID to style images within article elements*/
 #article-image-left {
     float: left;
     margin-right: 25px;
@@ -116,6 +122,7 @@ aside {
     max-height: 200px;
 }
 
+/* changed footer class to semantic footer html element*/
 footer {
     padding: 30px;
     clear: both;
@@ -123,6 +130,7 @@ footer {
     text-align: center;
 }
 
+/* changed footer h2 to h4 for logical structure*/
 footer h4 {
     font-size: 20px;
 }
